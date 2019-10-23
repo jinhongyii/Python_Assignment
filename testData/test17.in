@@ -1,0 +1,9 @@
+#If Statement
+a = 1
+b = 2
+if a < b:
+    print(b)
+# elif a > b:
+#     print(a)
+# else:
+#     print("equal")

@@ -1,0 +1,10 @@
+#String Operation Test
+Hello = "Hello, "
+World = "World!"
+print(Hello + World)
+Hello *= 3
+print(Hello + "is there anybody in there?")
+
+cmp = Hello <= World
+print(cmp)
+print(not cmp)
