@@ -11,4 +11,3 @@ for i in range(13):
         f = open("testData/test" + str(i) + ".in", mode='r')
         title = f.readline()[1:]
         print("test", i, "wrong:", title)
-        print(i,"wrong")
