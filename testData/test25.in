@@ -1,4 +1,0 @@
-#Function Test
-def foo():
-    return
-foo()
