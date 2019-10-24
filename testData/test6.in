@@ -1,0 +1,10 @@
+#Comparision Test
+two = 0 + 1 * 2
+three = two + 1
+
+print(two < three)
+print(two > three)
+print(two <= three)
+print(two >= three)
+print(two == three)
+print(two != three)
