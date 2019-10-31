@@ -68,7 +68,7 @@ std::unique_ptr<Token> Lexer::nextToken() {
       return std::move(token);
     }
 
-    token.reset();
+    token.release();
     channel = Token::DEFAULT_CHANNEL;
     tokenStartCharIndex = _input->index();
     tokenStartCharPositionInLine = getInterpreter<atn::LexerATNSimulator>()->getCharPositionInLine();
