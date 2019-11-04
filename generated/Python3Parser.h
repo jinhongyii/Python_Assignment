@@ -672,8 +672,8 @@ public:
   public:
     ArgumentContext(antlr4::ParserRuleContext *parent, size_t invokingState);
     virtual size_t getRuleIndex() const override;
-    std::vector<TestContext *> test();
-    TestContext* test(size_t i);
+    TestContext *test();
+    antlr4::tree::TerminalNode *NAME();
     antlr4::tree::TerminalNode *ASSIGN();
 
     virtual void enterRule(antlr4::tree::ParseTreeListener *listener) override;

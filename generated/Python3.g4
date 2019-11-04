@@ -142,7 +142,7 @@ atom: (NAME | NUMBER | STRING+| 'None' | 'True' | 'False' | ('(' test ')'));
 testlist: test (',' test)* (',')?;//算式  eg： a,b   a   a+b
 arglist: argument (',' argument)*  (',')?;
 argument: ( test |
-            test '=' test );
+            NAME '=' test );
 STRING
  : STRING_LITERAL
  | BYTES_LITERAL
