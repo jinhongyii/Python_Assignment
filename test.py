@@ -13,7 +13,7 @@ for i in range(13):
         print("test", i, "wrong:", title)
 os.system("rm -rf ./temp")
 os.makedirs("temp")
-for i in range(15):
+for i in range(20):
     inst = "./python_interpreter BigIntegerTest/BigIntegerTest" + str(i) + ".in > temp/test" + str(i) + ".out"
     print(inst)
     os.system(inst)
