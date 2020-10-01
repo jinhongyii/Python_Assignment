@@ -2,6 +2,7 @@
 def foo(a):
     print(a)
 i = 0
+print("numbers are")
 while i < 10:
     foo(i)
     i += 1
